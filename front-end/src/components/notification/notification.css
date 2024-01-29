@@ -1,0 +1,76 @@
+.alert{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.image-mail-attente{
+    margin-top: 50px;
+}
+.MailIcon{
+    height: 170px;   
+}
+.modal-reception {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    font-family: Kanit, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    background: #D9D9D9; 
+    border-radius: 40px;
+    width: 320px;
+    height: 200px;
+    color: #006c92;
+    border: none;
+}
+.ValidCross{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.Cross {
+    background-color: #FF6464;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.Valid {
+    background-color: #006c92;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.receptionner {
+    background-color: #006c92;
+    color: white;
+    width: 300px;
+    height: 60px;
+    border-radius: 65px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+.panneau{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.string-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "kanit", sans-serif;
+    color:#006c92;
+    font-size: 24px;
+    width: 350px;
+    margin: 15px 0 40px 0;
+}
+.modal-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:321px;
+}

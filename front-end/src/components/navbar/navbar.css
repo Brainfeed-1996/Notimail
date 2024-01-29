@@ -1,0 +1,45 @@
+.ma-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E3E3E3;
+    /* Couleur de fond grise */
+    padding: 10px 20px;
+    /* Ajustez selon vos besoins */
+}
+
+.ma-navbar .left {
+    margin-right: 20px;
+}
+
+.ma-navbar .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logomail img {
+    height: 114px;
+    width: auto;
+}
+
+.ent-ou-admin {
+
+    margin-bottom: 15px;
+    margin-right: 20px;
+    font-weight: 400;
+    /* Style pour le texte 'Admin' */
+    color: #025892;
+
+}
+
+#deconnexion {
+    padding: 5px 10px;
+    background-color: #FF3535;
+    /* Couleur de fond pour le bouton */
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    /* Ajoutez d'autres styles pour le bouton si nécessaire */
+}

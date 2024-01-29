@@ -1,0 +1,59 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* S'assurer que la modal est au-dessus des autres éléments */
+  }
+  
+  .modal-content {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    gap: 20px; /* Espace entre les boutons */
+    margin-top: 20px;
+  }
+  
+  .modal-button {
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cancel {
+    background-color: #FF6464; /* Couleur rouge pour annuler */
+  }
+  
+  .confirm {
+    background-color: #4CAF50; /* Couleur verte pour confirmer */
+  }
+  
+  /* Taille des icônes dans les boutons, à ajuster selon la taille de vos SVG */
+  .modal-button svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Styles supplémentaires pour le titre */
+  .modal-content h3 {
+    color: #333;
+    text-align: center;
+  }
+  

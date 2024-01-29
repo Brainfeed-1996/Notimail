@@ -1,0 +1,113 @@
+.modal-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  color: #006c92;
+  font-family: "Kanit", sans-serif;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+&.hidden {
+  pointer-events: none;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  border: none;
+ 
+}
+
+.close {
+  display: flex;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  background-color: #ff3535;
+  font-weight: 600;
+  border-radius: 26px;
+  margin: 20px;
+  width: 134px;
+  height: 56px;
+  top: 608px;
+  left: 70px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+
+}
+
+.envoi {
+  display: flex;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  background-color: #025892;
+  font-weight: 600;
+  border-radius: 20px;
+  margin: 20px;
+  border-radius: 26px;
+  margin: 20px;
+  width: 134px;
+  height: 56px;
+  top: 608px;
+  left: 225px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.cadre {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #d9d9d9;
+  border-radius: 31px;
+  width: 321px;
+  height: 430px;
+  top: 251px;
+  left: 54px;
+  z-index:6;
+  opacity: 100%;
+
+}
+
+.selected {
+  background-color: #bebebe;
+  display: flex;
+  border-radius: 31px;
+  width: 283px;
+  height: 222px;
+  top: 367px;
+  left: 73px;
+  color: #006c92;
+  font-family: "Kanit", sans-serif;
+
+}
